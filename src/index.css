@@ -1,13 +1,167 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* :root{
+  --red:#d01c28;
+  --grey:#2e2e2e;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 72px;
+  max-width: 1280px;
+}
+.nav-items{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  font-size: 20px;
+}
+button{
+  height: 40px;
+  all: unset;
+  padding: 6px 16px;
+  color: white;
+  background:var(--red);
+  font-weight: 500;
+  border-radius: 5px;
+}
+.component-container{
+  display: flex ;
+  margin: 0 auto;
+  max-width: 1280px;
+  align-items: center;
+  height: calc(100vh-72vh);
+}
+.compo-content h1{
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 102px;
+}
+
+
+.compo-content p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height:  26px;;
+}
+.btns{
+  display: flex;
+  gap: 55px;
+  
+}
+.seconday-btn{
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.shopping{
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.brand-imgs{
+  height: 30px;
+} */
+.nav-list{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+  padding: 5px 5px ;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 60px;
+}
+.main-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.contact h1 {
+  font-size: 40px;
+}
+.contact p{
+  font-size: 20px;
+}
+.text-area{
+  display: flex;
+  flex-direction: column;
+  width: 496px;
+  gap: 30px;
+}
+.call-btns{
+  gap: 100px;
+  display: flex;
+  margin-bottom: 30px;
+  
+}
+.chat-btn{
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+}
+.call-btn{
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+}
+.sms-btn{
+  height: 30px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.input-name{
+  height: 30px;
+  
+}
+.text-area{
+  text-align: center;
+}
+.image_and_content{
+  display: flex;
+  justify-content: space-between;
+}
+.contact{
+  margin-bottom: 30px;
+}
+.text__area{
+  height: 100px;
+}
+.submit-btn{
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.boxes{
+  text-align: center;
+  
 }
